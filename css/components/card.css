@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.card {
+  padding: 20px;
+  flex-grow: 1;
+  flex-basis: 250px;
+  margin: 10px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.card img { width: 100%; border-radius: 4px; }
